@@ -12,7 +12,8 @@ for (var i = 0; i < emailsAvailable.length; i++) {
   console.log(emailUser);
   if (emailUser == emailsAvailable[i]) {
     document.getElementById("output").innerHTML = "Puoi accedere";
-    break;
+    i = 5000;
+    // break;
   }
   else {
     document.getElementById("output").innerHTML = "Non puoi accedere";

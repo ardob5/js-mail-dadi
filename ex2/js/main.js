@@ -10,11 +10,12 @@ var dadiComputer = alert(dadiUser + " è il tuo punteggio" + ". Ora tocca a me."
 
 dadiComputer = Math.floor((Math.random() * 6) + 1);
 
+// Check alla console
 console.log("L'utente ha fatto" + dadiUser);
 console.log("Il computer ha fatto" + dadiComputer);
 
 var winner;
-
+// Verifico quale dei due dadi ha il punteggio piu alto
 if (dadiUser > dadiComputer) {
   winner = ("Il computer ha fatto " + dadiComputer + ". Complimenti, hai vinto!")
 } else if (dadiUser < dadiComputer) {
